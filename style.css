@@ -14,9 +14,9 @@
 
 h1 {
     font-family: monaco,'Cabin', monaco, Arial, Helvetica;
-    color: #2e6da4;
-    font-size: 24px;
-    font-weight: 700;
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
     line-height: 50px;
 }
 h2 {
@@ -75,7 +75,9 @@ pre {
     font-weight: 400;
     line-height: 18.5714px;
 }
-
+.bold{
+    font-weight: 800;
+} 
 .vertical-space{
     margin-bottom: 8px;
 }
