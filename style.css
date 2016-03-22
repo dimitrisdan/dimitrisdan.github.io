@@ -1,5 +1,5 @@
  body{
-    font-family: 'Cabin', monaco, Arial, Helvetica;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 100px;
 }
 #footer {
@@ -13,14 +13,14 @@
 }
 
 h1 {
-    font-family: monaco,'Cabin', monaco, Arial, Helvetica;
+    font-family: 'Roboto', sans-serif;
     color: #000;
     font-size: 22px;
     font-weight: 400;
     line-height: 50px;
 }
 h2 {
-    font-family: 'Cabin', monaco, Arial, Helvetica;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-variant: normal;
@@ -28,7 +28,7 @@ h2 {
     line-height: 20px;
 }
 h3 {
-    font-family: 'Cabin', monaco, Arial, Helvetica;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-variant: normal;
@@ -36,7 +36,7 @@ h3 {
     line-height: 15.4px;
 }
 h4 {
-    font-family: 'Cabin', monaco, Arial, Helvetica;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-variant: normal;
@@ -44,7 +44,7 @@ h4 {
     line-height: 12.4px;
 }
 h5 {
-    font-family: 'Cabin', monaco, Arial, Helvetica;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-variant: normal;
