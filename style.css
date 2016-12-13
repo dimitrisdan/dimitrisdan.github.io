@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, div {
     font-family: 'Nunito', sans-serif;
+    color: #FFF;
 }
-p, div, a {
+p  {
     font-family: 'Nunito', sans-serif;
+    color: #000;
 }
  body{
+   background-color: #2E4052;
     margin-bottom: 100px;
 }
+#prof {
+    font-size: 46px;
+    font-weight: 500;
 
+}
 #footer {
   position: fixed;
   width: 100%;
@@ -19,9 +26,9 @@ p, div, a {
   margin:0px;
   padding-left: 30px;
 }
-
+ul.nav a:hover { color: #FFC857 !important; }
 h1 {
-    color: #000;
+    color: #FFF;
     font-size: 22px;
     font-weight: 400;
     line-height: 50px;
