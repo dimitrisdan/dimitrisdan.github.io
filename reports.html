@@ -29,102 +29,83 @@
 
 <body>
 
-<header class="navbar navbar-inverse navbar-static-top" role="banner">
-  <div class="container">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="/" class="navbar-brand" style="color:white;font-family: monaco, Consolas;">dimitrisdan.github.io</a>
+  <header class="navbar navbar-inverse navbar-static-top" role="banner">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" rel="home" href="/" title="dimitrisdan.github.io">
+            <img src="ninja.png"  style="width:25px;">
+        </a>
+
+      </div>
+      <nav class="collapse navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="http://dimitrisdan.github.io/certs.html">Certifications</a>
+          </li>
+          <li>
+            <a href="http://dimitrisdan.github.io/reports.html">Technical Reports</a>
+          </li>
+          <li>
+            <a href="http://dimitrisdan.github.io/posters.html">Posters</a>
+          </li>
+          <li>
+            <a href="http://dimitrisdan.github.io/videos.html">Videos</a>
+          </li>
+          <li>
+            <a href="#"></a>
+          </li>
+          <li>
+            <a href="#"></a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <nav class="collapse navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav">
-        <li>
-          <a href="http://dimitrisdan.github.io/reports.html">Reports</a>
-        </li>
-        <li>
-          <a href="http://dimitrisdan.github.io/projects.html">Projects</a>
-        </li>
-        <li>
-          <a href="http://dimitrisdan.github.io/visuals.html">Visual</a>
-        </li>
-        <li>
-          <a href="#"></a>
-        </li>
-        <li>
-          <a href="#"></a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
+  </header>
 
 <!-- Begin Body -->
 <div class="container">
 
     <div class="row">
+      <div class="col-md-8">
+        <div class="panel panel-default">
+            <div class="panel-heading">Technical Reports</div>
+            <div class="panel-body">
+              <div class="vertical-space">
+                  <img src="Icons/pdf.png" style="width:20px;">&nbsp;<a href="https://drive.google.com/file/d/0B08EQYpU7wnCc0F4THdpa3pvN2M/view?usp=sharing"target="_blank">Software Vulnerabilities</a>
+              </div>
 
-        <div class="col-md-3" id="leftCol">
+              <div class="vertical-space">
+                  <img src="Icons/pdf.png" style="width:20px;">&nbsp;<a href="https://drive.google.com/file/d/0B08EQYpU7wnCSlBmdENFeVFtUGc/view?usp=sharing" target="_blank">Secure Memory on Smartphones</a>
+              </div>
 
+              <div class="vertical-space">
+                  <img src="Icons/pdf.png" style="width:20px;">&nbsp;<a href="https://drive.google.com/file/d/0B08EQYpU7wnCeGRDYnEzc3NCRzg/view?usp=sharing" target="_blank">YouTube Sentiment-Analysis</a>
+              </div>
 
+              <div class="vertical-space">
+                  <img src="Icons/pdf.png" style="width:20px;">&nbsp;<a href="https://drive.google.com/file/d/0B08EQYpU7wnCQnpJdFhMNmZQY28/view?usp=sharing" target="_blank">Health-Care Data Handling System using Apache Hadoop EcoSystem</a>
+              </div>
 
-            <div class="well">
+              <div class="vertical-space">
+                  <img src="Icons/pdf.png" style="width:20px;">&nbsp;<a href="https://drive.google.com/file/d/0B08EQYpU7wnCRkpsd0xlLXc3a1U/view?usp=sharing" target="_blank">Apache Mesos A Fault-Tolerant Cluster Computing Platform</a>
+              </div>
 
-                <h2>Development</h2>
+              <div class="vertical-space">
+                  <img src="Icons/pdf.png" style="width:20px;">&nbsp;<a href="https://drive.google.com/file/d/0B08EQYpU7wnCOF9Ub0xIQm5KSlE/view?usp=sharing" target="_blank">Unmanned Aircraft Systems</a>
+              </div>
 
-                <div class="vertical-space">
-                    <img src="Icons/github.png" style="width:20px;"> <a href="https://github.com/dimitrisdan" target="_black">github</a>
-                </div>
-
-                <div class="vertical-space">
-                    <img src="Icons/bitbucket.png" style="width:20px;"> <a href="https://bitbucket.org/dimitrisdan/" target="_black">bitbucket</a>
-                </div>
-
-                <div class="vertical-space">
-                    <img src="Icons/stack.png" style="width:20px;"><a href="http://stackoverflow.com/users/3253353/mitsos" target="_black">stack<b>overflow</b></a>
-                </div>
-
-            </div>
-
-
-
-        </div>
-
-        <div class="col-md-9" id="midCol">
-            <h1>Technical Reports</h1>
-            <hr>
-            <div class="vertical-space">
-                <img src="Icons/pdf.png" style="width:20px;">&nbsp;<a href="https://drive.google.com/file/d/0B08EQYpU7wnCc0F4THdpa3pvN2M/view?usp=sharing"target="_blank">Software Vulnerabilities</a>
-            </div>
-
-            <div class="vertical-space">
-                <img src="Icons/pdf.png" style="width:20px;">&nbsp;<a href="https://drive.google.com/file/d/0B08EQYpU7wnCSlBmdENFeVFtUGc/view?usp=sharing" target="_blank">Secure Memory on Smartphones</a>
-            </div>
-
-            <div class="vertical-space">
-                <img src="Icons/pdf.png" style="width:20px;">&nbsp;<a href="https://drive.google.com/file/d/0B08EQYpU7wnCeGRDYnEzc3NCRzg/view?usp=sharing" target="_blank">YouTube Sentiment-Analysis</a>
-            </div>
-
-            <div class="vertical-space">
-                <img src="Icons/pdf.png" style="width:20px;">&nbsp;<a href="https://drive.google.com/file/d/0B08EQYpU7wnCQnpJdFhMNmZQY28/view?usp=sharing" target="_blank">Health-Care Data Handling System using Apache Hadoop EcoSystem</a>
-            </div>
-
-            <div class="vertical-space">
-                <img src="Icons/pdf.png" style="width:20px;">&nbsp;<a href="https://drive.google.com/file/d/0B08EQYpU7wnCRkpsd0xlLXc3a1U/view?usp=sharing" target="_blank">Apache Mesos A Fault-Tolerant Cluster Computing Platform</a>
-            </div>
-
-            <div class="vertical-space">
-                <img src="Icons/pdf.png" style="width:20px;">&nbsp;<a href="https://drive.google.com/file/d/0B08EQYpU7wnCOF9Ub0xIQm5KSlE/view?usp=sharing" target="_blank">Unmanned Aircraft Systems</a>
-            </div>
-
-            <div class="vertical-space">
-                <img src="Icons/pdf.png" style="width:20px;">&nbsp;<a href="https://drive.google.com/file/d/0B08EQYpU7wnCNkE2eFcteXlVQUk/view?usp=sharing" target="_blank">Edge Detection Design</a>
+              <div class="vertical-space">
+                  <img src="Icons/pdf.png" style="width:20px;">&nbsp;<a href="https://drive.google.com/file/d/0B08EQYpU7wnCNkE2eFcteXlVQUk/view?usp=sharing" target="_blank">Edge Detection Design</a>
+              </div>
             </div>
         </div>
-
+      </div>
     </div>
 
 </div>
