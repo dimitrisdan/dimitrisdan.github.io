@@ -1,0 +1,78 @@
+body {
+    background: #000;
+    font-size: 11pt;
+    font-family: Consolas, LucidaTerminal, monospace;
+    color: #fff;
+    text-align: left;
+    overflow:auto;
+}
+
+h1 {
+    font-family:Consolas;
+}
+
+h2 {
+    font-family:Consolas;
+}
+
+h3 {
+    font-family:Consolas;
+    color: #20C20E;
+    border-bottom: 1px dashed #20C20E;
+    display: inline;
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-family:Consolas;
+    color: #20C20E;
+    border-bottom: 1px dashed #20C20E;
+    display: inline;
+}
+
+p {
+    color: #fff;
+}
+
+pre {
+    display: inline-block;
+}
+
+hr {
+    border: 1px dotted #fff;
+    border-style: none none dashed; 
+    color: transparent; 
+    background-color: transparent;
+}
+
+ol {
+    padding-left:0px;
+}
+
+a{
+    font-size: 9pt;    
+}
+
+
+/* Default CSS Values */
+a:link, a:visited { 
+    color: /* browser's internal value */;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+a:link:active, a:visited:active { 
+    color: /* browser's internal value */;
+}
+
+.jumbotron{
+    text-align: center;
+    color: #20C20E;
+    background-color:#000 !important;
+}
+.jumbotron p{
+    font-size: 11pt;
+}
+.text-green{
+    color: #20C20E;
+}
