@@ -76,3 +76,14 @@ a:link:active, a:visited:active {
 .text-green{
     color: #20C20E;
 }
+.mypretag {
+    background-color:#f5f5f5;
+    color:#333358;
+    border-radius:5px;
+    padding-top:20px;
+    padding-bottom:15px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:12px;
+    margin-bottom: 30px;
+}
